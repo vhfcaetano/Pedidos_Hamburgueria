@@ -7,6 +7,7 @@ body{
     margin: 0;
     background-color: brown;
     font-family: "roboto", sans-serif;
+    color: aliceblue;
 }
 
 .cabecalho{
@@ -45,10 +46,11 @@ body{
     font-family: 'roboto', sans-serif;
     padding: 8px;
     border-radius: 8px;
-    border-color: solid brown;
+    border-color: aliceblue;
     font-weight: 800;
     border-style: dashed;
     cursor:pointer;
+    color: aliceblue;
 }
 
 .botao-pedido button:hover {
@@ -101,10 +103,11 @@ body{
     font-family: 'roboto', sans-serif;
     padding: 8px;
     border-radius: 8px;
-    border-color: solid brown;
+    border-color: aliceblue;
     font-weight: 800;
     border-style: dashed;
     cursor:pointer;
+    color: aliceblue;
 }
 
 .botao-pedido-main{
@@ -114,4 +117,47 @@ body{
 .botao-pedido-main button:hover{
     background:brown;
     color: aliceblue;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 0px;
+    align-items: center;
+    text-align: start;
+}
+
+.logomarca-rodape{
+    height: 100px;
+    margin-left: 130px ;
+}
+
+.linha-vertical{
+    height: 60px;/*Altura da linha*/
+    border-left: 2px solid;
+    opacity: 0.3;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+.menu-rodape ul li{
+    margin: 8px 8px;
+    list-style: none;
+    margin-right: 0 auto;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-rodape a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu-rodape h3{
+    margin-left: 12px;
+}
+
+.informacoes-rodape p{
+    margin-right: 100px;
+    padding: 20px;
+
 }
