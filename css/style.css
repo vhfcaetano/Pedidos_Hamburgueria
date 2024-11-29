@@ -11,15 +11,16 @@ body{
 
 /* Barra Menu */
 
-.cabecalho {
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     margin-top: 12px;
+    border-bottom: 2px solid aliceblue;
 }
 
-.cabecalho img{
+.menu img{
     height: 150px;
     margin-right: 20px;
 }
@@ -41,4 +42,28 @@ body{
     margin-right: 15px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.menu-site a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu-site a:hover{
+    color: rgb(136, 136, 136);
+}
+
+.menu-site button{
+   padding: 12px;
+   background: none;
+   color: aliceblue;
+   border: 2px solid aliceblue;
+   border-radius: 12px;
+   font-family: "roboto";
+   cursor: pointer;
+}
+
+.menu-site button:hover {
+    background-color: aliceblue;
+    color: rgb(88, 6, 7);
 }
