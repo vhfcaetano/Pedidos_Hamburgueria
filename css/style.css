@@ -20,7 +20,7 @@ body{
 }
 
 .menu img{
-    height: 150px;
+    height: 120px;
     margin-right: 20px;
 }
 
@@ -34,13 +34,11 @@ body{
 .menu-site ul{
     display: flex;
     list-style: none;
-    margin-right: 20px;
 }
 
 .menu-site li{
-    margin-right: 15px;
+    margin: 0 12px;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 .menu-site a{
@@ -66,9 +64,21 @@ body{
 .menu-site button:hover {
     background-color: aliceblue;
     color: rgb(88, 6, 7);
+    
 }
 
-/* _______________________________________________ */
+.botao-pedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-pedido hr{
+    height: 45px;
+    width: 1px;
+    margin: 0px 45px;
+    color: aliceblue;
+}
 
 /* Slide Bar */
 
@@ -82,7 +92,7 @@ body{
     width: 100%;
     height: 500px;
     background-image: url(../images/fundo-hamburquer.jpg);
-    background-position: center;
+    background-position-y: -300px;
     background-size: cover;
 }
 
@@ -92,7 +102,7 @@ body{
 
 .slide-bar button{
     padding: 12px;
-    background: none;
+    background: aliceblue;
     border: 2px rgb(88, 6, 7) solid;
     border-radius: 12px;
     color: rgb(88, 6, 7);
@@ -102,10 +112,11 @@ body{
 }
 
 .slide-bar button:hover{
-    background-color: aliceblue;
+    background-color:rgb(88, 6, 7);
+    color: aliceblue;
+    border: 2px aliceblue solid;
 }
 
-/* _____________________________________________________ */
 /* Rodapé */
 
 .rodape{
@@ -145,7 +156,7 @@ body{
 }
 
 .logomarca-rodape{
-    height: 150px;
+    height: 120px;
     margin: 0 120px;
 }
 
@@ -178,6 +189,35 @@ body{
         border: none;
     }
 }
+
+/* Página de pedidos */
+
+.box-pedidos{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/yellow\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    width: 800px;
+    height: 650px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.form-box h1{
+    color: black;
+    text-align: center;
+}
+
+/* _____________________________________________________ */
 
 @media (max-width:1050px) {
     .slide-bar{
